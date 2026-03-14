@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<header>
+<body>
+<header class="site-header">
     <nav>
         <ul class="main-navigation-list">
             <li><a href="index.html">Home</a></li>
@@ -14,44 +16,43 @@
         </ul>
     </nav>
 </header>
-<body>
-<h1>Portfolio</h1>
-<p>Here are my web development projects:</p>
-<div class="projects-container">
-    <div class="project-card">
-        <h3>❤️ The Valentine App</h3>
-        <p>An interactive proposal with a running button.</p>
-        <a href="https://kabuldinoff.github.io/valentine/" target="_blank">View Project &rarr;</a>
+<main class="content-wrapper">
+    <h1>Portfolio</h1>
+    <p>Here are my web development projects:</p>
+    <div class="projects-container">
+        <div class="project-card">
+            <h3>❤️ The Valentine App</h3>
+            <p>An interactive proposal with a running button.</p>
+            <a href="https://kabuldinoff.github.io/valentine/" target="_blank">View Project &rarr;</a>
+        </div>
+        <div class="project-card">
+            <h3>🌡️ Weather Data Visualization with API</h3>
+            <p>An app querying DWD weather data via Bright Sky API. Shows dynamic data visualization with extensive filtering capabilities.</p>
+            <a href="https://kabuldinoff.github.io/temperature-review-with-api/" target="_blank">View Project &rarr;</a>
+        </div>
+        <div class="project-card">
+            <h3>🌡️ Weather Data Visualization</h3>
+            <p>An app querying hardcoded DWD weather data. Shows dynamic data visualization with filtering capabilities.</p>
+            <a href="https://kabuldinoff.github.io/temperature-review/" target="_blank">View Project &rarr;</a>
+        </div>
+        <div class="project-card">
+            <h3>📄 PDF to Markdown Converter</h3>
+            <p>A single-page web application designed to convert PDF documents into Markdown text files.</p>
+            <a href="https://kabuldinoff.github.io/PDF-to-Markdown-Converter/" target="_blank">View Project &rarr;</a>
+        </div>
+        <div class="project-card">
+            <h3>💊 CV of Neo himself</h3>
+            <p>Resume of Thomas Anderson a.k.a Neo.</p>
+            <a href="https://kabuldinoff.github.io/CV-Neo/" target="_blank">View Project &rarr;</a>
+        </div>
     </div>
-    <div class="project-card">
-        <h3>🌡️ ️Weather Data Visualization with API</h3>
-        <p>An app querying DWD weather data via Bright Sky API. Shows dynamic data visualization with extensive filtering capabilities.</p>
-        <a href="https://kabuldinoff.github.io/temperature-review-with-api/" target="_blank">View Project &rarr;</a>
+</main>
+<footer class="site-footer">
+    <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+    <div class="footer-links">
+        <a href="https://www.linkedin.com/in/kabuldinov/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/kabuldinoff" target="_blank">GitHub</a>
     </div>
-    <div class="project-card">
-        <h3>🌡️ ️Weather Data Visualization</h3>
-        <p>An app querying hardcoded DWD weather data. Shows dynamic data visualization with filtering capabilities.</p>
-        <a href="https://kabuldinoff.github.io/temperature-review/" target="_blank">View Project &rarr;</a>
-    </div>
-    <div class="project-card">
-        <h3>📄️ PDF to Markdown Converter</h3>
-        <p>A single-page web application designed to convert PDF documents into Markdown text files.</p>
-        <a href="https://kabuldinoff.github.io/PDF-to-Markdown-Converter/" target="_blank">View Project &rarr;</a>
-    </div>
-    <div class="project-card">
-        <h3>💊️ CV of Neo himself</h3>
-        <p>Resume of Thomas Anderson a.k.a Neo.</p>
-        <a href="https://kabuldinoff.github.io/CV-Neo/" target="_blank">View Project &rarr;</a>
-    </div>
-</div>
-</body>
-<footer>
-    <nav>
-        <ul class="main-navigation-list">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
 </footer>
+</body>
 </html>
