@@ -28,14 +28,13 @@
         <input type="hidden" name="access_key" value="0e24c31c-98b5-4b68-8be6-cfd744ea6294" />
         <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
         <input type="hidden" name="from_name" value="My Website" />
-        <!--TODO: add caption that * required and add this *s, message box? that not filled-->
         <div class="form-group-container">
             <div class="form-group">
-                <label for="name" class="form-label">Name *</label>
+                <label for="name" class="form-label">Name <span class="required-asterisk">*</span></label>
                 <input id="name" name="name" class="form-input" placeholder="Your name" type="text" required />
             </div>
             <div class="form-group">
-                <label for="email" class="form-label">Email *</label>
+                <label for="email" class="form-label">Email <span class="required-asterisk">*</span></label>
                 <input id="email" name="email" class="form-input" placeholder="Your email" type="email" required />
             </div>
             <div class="form-group">
@@ -43,12 +42,12 @@
                 <input id="phone" name="phone" class="form-input" placeholder="+1 (234) 56789" type="text" />
             </div>
             <div class="form-group">
-                <label for="message" class="form-label">Message *</label>
+                <label for="message" class="form-label">Message <span class="required-asterisk">*</span></label>
                 <textarea class="form-textarea" id="message" name="message" placeholder="Your message" required></textarea>
             </div>
         </div>
         <button class="form-submit" type="submit">Send Message</button>
-        <!--TODO: message box that you sent successfully: "Thank you, will be back soon to you"-->
+        <!--TODO: custom message box that someone sent a message successfully: "Thank you, I will be back soon to you"-->
     </form>
 </main>
 <footer class="site-footer">
