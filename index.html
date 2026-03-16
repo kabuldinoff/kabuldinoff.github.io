@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Homepage | Alibek Kabuldinov</title>
     <link rel="icon" type="image/svg+xml" href="img/logo-black.svg" media="(prefers-color-scheme: light)">
     <link rel="icon" type="image/svg+xml" href="img/logo-white.svg" media="(prefers-color-scheme: dark)">
     <link rel="stylesheet" href="style.css">
@@ -12,11 +12,7 @@
 <header class="site-header">
     <nav>
         <ul class="main-navigation-list">
-            <li>
-                <a href="index.html">
-                    <img src="img/logo-white.svg" width="1453px" height="1108px" alt="Logo" class="logo">
-                </a>
-            </li>
+            <li><a href="index.html"><img src="img/logo-white.svg" width="1453px" height="1108px" alt="Logo" class="logo"></a></li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -24,7 +20,49 @@
 </header>
 <main class="content-wrapper">
     <h1>Welcome to my personal Homepage!</h1>
-    <p>Here is a little bit about me...</p>
+    <p class="intro-text">
+        Hi, I'm Alibek. I am a results-oriented Computer Science student and Software Developer. I specialize in building modern applications using React and TypeScript, combining startup agility with a strong focus on maintainability, code quality, and robust CI/CD pipelines.
+    </p>
+    <div class="projects-container">
+        <h2 class="section-title">Experience Snapshot</h2>
+        <div class="project-card">
+            <h3>Software Engineer Working Student</h3>
+            <p class="job-meta">Tokenize.it GmbH | Nov 2024 – Nov 2025</p>
+            <ul class="job-highlights">
+                <li>Developed responsive features for a Web3-based financial platform dedicated to startup fundraising and tokenized investing using React (Next.js), TypeScript, Chakra UI, and REST APIs.</li>
+                <li>Owned the technical implementation of Internationalization (i18n), creating a maintainable path-based routing architecture for complex financial workflows.</li>
+                <li>Engineered and refined critical financial features using comprehensive Unit Tests (Jest) to ensure transaction reliability.</li>
+            </ul>
+        </div>
+        <div class="project-card">
+            <h3>Frontend Developer Working Student</h3>
+            <p class="job-meta">seventhings GmbH | May 2024 – Oct 2024</p>
+            <ul class="job-highlights">
+                <li>Contributed to a cloud-native, sustainable inventory management platform using React and TypeScript in a fast-paced agile environment.</li>
+                <li>Implemented robust business logic for enterprise features, including complex role-based access control (RBAC) and dynamic task management.</li>
+                <li>Ensured high release reliability through structured Code Reviews, Unit Testing, and cross-browser compliance checks.</li>
+            </ul>
+        </div>
+        <div class="project-card">
+            <h3>Frontend Developer Working Student</h3>
+            <p class="job-meta">webit! Gesellschaft für neue Medien mbH | Apr 2022 – Nov 2023</p>
+            <ul class="job-highlights">
+                <li>Engineered responsive, high-performance web components for concurrent large-scale client projects using Vue.js, JavaScript, and SCSS.</li>
+                <li>Conducted performance monitoring (Lighthouse) and implemented optimizations like Lazy Loading to significantly improve website efficiency.</li>
+            </ul>
+        </div>
+        <h2 class="section-title section-title-spacing">Tech Stack</h2>
+        <div class="project-card tech-stack-card">
+            <p><strong>Core Frontend:</strong> React (Next.js), TypeScript, JavaScript, HTML, CSS (SCSS/LESS)</p>
+            <p><strong>Dev & Testing:</strong> Git, CI/CD Pipelines, Jest (Unit Testing), Docker, Lighthouse Performance</p>
+            <p><strong>Backend & Concepts:</strong> Node.js, REST APIs, SQL, Agile/Scrum Methodologies</p>
+        </div>
+        <div class="cta-box">
+            <h2 class="cta-title">Want more?</h2>
+            <p class="cta-text">Contact me! Send me a quick message and I will provide my full, detailed resume.</p>
+            <a href="contact.html" class="cta-button">Get in Touch</a>
+        </div>
+    </div>
 </main>
 <footer class="site-footer">
     <p class="footer-copyright">

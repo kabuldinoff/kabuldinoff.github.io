@@ -93,6 +93,76 @@ h1 {
     margin-bottom: 1rem;
 }
 
+.section-title {
+    margin-bottom: 0.5rem;
+    border-bottom: 2px solid var(--gray-light);
+    padding-bottom: 0.5rem;
+}
+
+.section-title-spacing {
+    margin-top: 1.5rem;
+}
+
+.intro-text {
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+/* --- Home Section --- */
+.job-meta {
+    color: var(--gray-medium);
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.job-highlights {
+    margin-left: 1.5rem;
+    line-height: 1.5;
+}
+
+.tech-stack-card {
+    line-height: 1.8;
+}
+
+/* --- Call to Action Box --- */
+.cta-box {
+    text-align: center;
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: var(--gray-light);
+    border-radius: 8px;
+}
+
+.cta-title {
+    color: var(--linkedin-blue);
+    margin-bottom: 1rem;
+}
+
+.cta-text {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 1.5rem;
+    background-color: var(--linkedin-blue);
+    color: var(--white);
+    padding: 1rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: 100%;
+
+    &:hover {
+        background-color: var(--terracotta);
+        color: var(--white);
+    }
+}
+
 /* --- Projects Section --- */
 .projects-container {
     display: flex;
@@ -182,24 +252,6 @@ h1 {
     outline: none;
     border-color: var(--linkedin-blue);
     box-shadow: 0 0 0 2px rgba(10, 102, 194, 0.2);
-}
-
-.form-submit {
-    margin-top: 1.5rem;
-    background-color: var(--linkedin-blue);
-    color: var(--white);
-    padding: 1rem;
-    border: none;
-    border-radius: 4px;
-    font-size: 1rem;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.2s;
-    width: 100%;
-
-    &:hover {
-        background-color: var(--terracotta);
-    }
 }
 
 .required-asterisk {
