@@ -120,10 +120,6 @@ h1 {
     line-height: 1.5;
 }
 
-.tech-stack-card {
-    line-height: 1.8;
-}
-
 /* --- Call to Action Box --- */
 .cta-box {
     text-align: center;
@@ -177,6 +173,7 @@ h1 {
     border-radius: 8px;
     padding: 1.5rem;
     background-color: var(--white);
+    line-height: 1.8;
     transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 
     &:hover {
